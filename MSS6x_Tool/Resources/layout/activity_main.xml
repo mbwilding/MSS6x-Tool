@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </com.google.android.material.appbar.AppBarLayout>
+
+  <ViewSwitcher
+    android:id="@+id/ViewSwitcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:paddingBottom="53dp"
+    android:inAnimation="@android:anim/slide_in_left" >
+
+    <LinearLayout
+      android:id="@+id/ViewFlasher"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+      <include layout="@layout/flasher" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/ViewTweaks"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+      <include layout="@layout/tweaks" />
+    </LinearLayout>
+
+  </ViewSwitcher>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>

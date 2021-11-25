@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">MSS6x Tool Free</string>
+  <string name="Pro">PRO VERSION REQUIRED</string>
+  <string name="action_settings">Settings</string>
+  <string name="identifyDme">Identify DME</string>
+  <string name="ReadTune">Read Tune</string>
+  <string name="ReadFull">Read Full</string>
+  <string name="LoadFile">Load File</string>
+  <string name="SaveFile">Save File</string>
+  <string name="FlashTune">Flash Tune</string>
+  <string name="FlashFull">Flash Full</string>
+  <string name="Model">Model:</string>
+  <string name="Engine">Engine:</string>
+  <string name="DmeType">DME:</string>
+  <string name="Vin">Vin:</string>
+  <string name="HwRef">HW:</string>
+  <string name="ProgVer">Program:</string>
+  <string name="SwVer">Software:‏‏‎ ‎‏‏‎ ‎</string>
+</resources>

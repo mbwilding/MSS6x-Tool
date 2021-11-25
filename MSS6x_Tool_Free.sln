@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSS6x_Tool_Free", "MSS6x_Tool\MSS6x_Tool_Free.csproj", "{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdiabasLibAndroid", "ediabaslib\EdiabasLib\EdiabasLibAndroid\EdiabasLibAndroid.csproj", "{FEDD5F23-F769-44D2-9F06-39D532008197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9AE4262F-6352-4D41-8EAD-2DAEA3E033B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpZipLibAndroid", "ediabaslib\EdiabasLib\SharpZipLibAndroid\SharpZipLibAndroid.csproj", "{82A3338B-1DB5-4A95-AD9D-C5757E71418D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbSerialBinding", "ediabaslib\EdiabasLib\EdiabasLibAndroid\UsbSerialBinding\UsbSerialBinding.csproj", "{C70078EC-34D9-46A7-A04A-4412CFE27509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821C9D7E-16C7-4D6A-AF61-C52FEE0608BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FEDD5F23-F769-44D2-9F06-39D532008197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDD5F23-F769-44D2-9F06-39D532008197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDD5F23-F769-44D2-9F06-39D532008197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDD5F23-F769-44D2-9F06-39D532008197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A3338B-1DB5-4A95-AD9D-C5757E71418D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A3338B-1DB5-4A95-AD9D-C5757E71418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A3338B-1DB5-4A95-AD9D-C5757E71418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A3338B-1DB5-4A95-AD9D-C5757E71418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70078EC-34D9-46A7-A04A-4412CFE27509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70078EC-34D9-46A7-A04A-4412CFE27509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70078EC-34D9-46A7-A04A-4412CFE27509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70078EC-34D9-46A7-A04A-4412CFE27509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEDD5F23-F769-44D2-9F06-39D532008197} = {9AE4262F-6352-4D41-8EAD-2DAEA3E033B7}
+		{82A3338B-1DB5-4A95-AD9D-C5757E71418D} = {9AE4262F-6352-4D41-8EAD-2DAEA3E033B7}
+		{C70078EC-34D9-46A7-A04A-4412CFE27509} = {9AE4262F-6352-4D41-8EAD-2DAEA3E033B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48034DA7-4628-49F6-AFFC-DD70FBADECFE}
+	EndGlobalSection
+EndGlobal

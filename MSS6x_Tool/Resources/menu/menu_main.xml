@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <group android:id="@+id/grp1">
+    <item
+      android:id="@+id/Read_Full_Long"
+      android:enabled="false"
+      android:orderInCategory="100"
+      android:title="Read Full (Long)"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/Read_ISN_SK"
+      android:enabled="false"
+      android:orderInCategory="100"
+      android:title="Read ISN / Secret Key"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/Read_RAM"
+      android:enabled="false"
+      android:orderInCategory="100"
+      android:title="Read RAM"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/RSA_Bypass_Fast"
+      android:enabled="false"
+      android:orderInCategory="100"
+      android:title="Flash RSA Bypass"
+      app:showAsAction="never" />
+  </group>
+
+  <group android:id="@+id/grp4">
+    <item
+      android:id="@+id/Read_Codes"
+      android:orderInCategory="100"
+      android:title="Read Codes"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/Reset_Codes"
+      android:orderInCategory="100"
+      android:title="Reset Codes"
+      app:showAsAction="never" />
+  </group>
+
+  <group android:id="@+id/grp5">
+    <item
+      android:id="@+id/Register_Battery"
+      android:orderInCategory="100"
+      android:title="Register Battery"
+      app:showAsAction="never" />
+  </group>
+
+  <group android:id="@+id/grp2">
+    <item
+    android:id="@+id/Battery_Override"
+      android:orderInCategory="100"
+      android:title="Battery Check: Yes"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/Airplane_Override"
+      android:orderInCategory="100"
+      android:title="Airplane Check: Yes"
+      app:showAsAction="never" />
+  </group>
+
+  <group android:id="@+id/grp3">
+    <item
+      android:id="@+id/Connected_Devices"
+      android:orderInCategory="100"
+      android:title="USB Device Info"
+      app:showAsAction="never" />
+    <item
+      android:id="@+id/About"
+      android:orderInCategory="100"
+      android:title="About"
+      app:showAsAction="never" />
+  </group>
+</menu>
