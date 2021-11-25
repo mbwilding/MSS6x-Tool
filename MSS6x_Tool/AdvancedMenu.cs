@@ -34,17 +34,17 @@ namespace MSS6x_Tool
                 var interfaceCount = usbDevice.InterfaceCount;
                 var configCount = usbDevice.ConfigurationCount;
 
-                msg += "Manufacturer Name: " + manufacturerName + "\n";
-                msg += "Product Name: " + productName + "\n";
-                msg += "Product ID: " + productId + "\n";
-                msg += "Vendor ID: " + vendorId + "\n";
-                msg += "Device ID: " + deviceId + "\n";
-                msg += "Version: " + version + "\n";
-                msg += "Serial: " + serialNum + "\n";
+                msg += $"Manufacturer Name: {manufacturerName}\n";
+                msg += $"Product Name: {productName}\n";
+                msg += $"Product ID: {productId}\n";
+                msg += $"Vendor ID: {vendorId}\n";
+                msg += $"Device ID: {deviceId}\n";
+                msg += $"Version: {version}\n";
+                msg += $"Serial: {serialNum}\n";
                 msg += "----------------------\n";
-                msg += "Device Protocol: " + deviceProtocol + "\n";
-                msg += "Interface Count: " + interfaceCount + "\n";
-                msg += "Config Count: " + configCount;
+                msg += $"Device Protocol: {deviceProtocol}\n";
+                msg += $"Interface Count: {interfaceCount}\n";
+                msg += $"Config Count: {configCount}";
             }
             else
             {
