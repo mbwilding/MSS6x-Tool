@@ -1,5 +1,7 @@
 # MSS6x Tool Free
 
+Allows reading and flashing M3 E9x and M5/M6 E6x DMEs via Android.<br>
+
 Supported vehicles;<br>
 E6x M5/M6<br>
 E9x M3<br>
