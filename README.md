@@ -8,6 +8,10 @@ E9x M3<br>
 
 Requires EdiabasLib flashed cable!<br>
 
+Special thanks;<br>
+https://github.com/uholeschak/ediabaslib<br>
+https://github.com/terraphantm/MSS6x-Flasher<br>
+
 Purchase links;<br>
 US: https://www.bimmergeeks.net/product-page/bimmergeeks-pro-cable<br>
 UK: https://www.ecuworx.co.uk/product/ecuworx-flashing-cable-for-e60-m5-e65-m6-and-e92-m3/
