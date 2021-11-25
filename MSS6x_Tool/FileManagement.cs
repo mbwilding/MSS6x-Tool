@@ -12,6 +12,8 @@ namespace MSS6x_Tool
 
             AssetWrite(asset, Global.SgbdReading);
             AssetWrite(asset, Global.SgbdFlashing);
+
+            ClearCache();
         }
 
         private static void AssetWrite(AssetManager assMan, string sgbdPath)
@@ -24,7 +26,7 @@ namespace MSS6x_Tool
             File.WriteAllBytes(Global.EcuPath + sgbdPath, data);
         }
 
-        public static void ClearCache()
+        private static void ClearCache()
         {
             try
             {

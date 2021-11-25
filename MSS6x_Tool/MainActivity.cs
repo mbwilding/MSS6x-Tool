@@ -34,7 +34,7 @@ namespace MSS6x_Tool
             Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            string[] permissions =
+            RequestPermissions(new[]
             {
                 Manifest.Permission.WriteExternalStorage,
                 Manifest.Permission.ReadExternalStorage,
@@ -42,8 +42,7 @@ namespace MSS6x_Tool
                 Manifest.Permission.BatteryStats,
                 Manifest.Permission.WakeLock,
                 Manifest.Permission.Internet
-            };
-            RequestPermissions(permissions, 0);
+            }, 0);
 
             var navigationView = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigationView?.SetOnNavigationItemSelectedListener(this);
@@ -64,7 +63,6 @@ namespace MSS6x_Tool
                 }
 
             FileManagement.AssetPrepare(Assets);
-            FileManagement.ClearCache();
             Ui.UiLink();
             AdvancedMenu.RestoreSettings();
         }

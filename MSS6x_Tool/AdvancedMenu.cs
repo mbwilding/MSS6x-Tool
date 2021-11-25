@@ -65,7 +65,7 @@ namespace MSS6x_Tool
             {
                 return false;
             }
-            _ = Ui.Message("Battery Warning", "Charge your battery to at least " + percent + "%.");
+            _ = Ui.Message("Battery Warning", $"Charge your battery to at least {percent}%.");
             return true;
         }
 
