@@ -19,32 +19,21 @@ namespace MSS6x_Tool
 
         public static async void UsbCheck(UsbManager usbManager, UsbDevice usbDevice)
         {
-            string msg = null;
+            string msg;
 
             if (usbManager.DeviceList != null && usbManager.DeviceList.Count > 0)
             {
-                var manufacturerName = usbDevice.ManufacturerName;
-                var productName = usbDevice.ProductName;
-                var productId = usbDevice.ProductId;
-                var vendorId = usbDevice.VendorId;
-                var deviceId = usbDevice.DeviceId;
-                var version = usbDevice.Version;
-                var serialNum = usbDevice.SerialNumber;
-                var deviceProtocol = usbDevice.DeviceProtocol;
-                var interfaceCount = usbDevice.InterfaceCount;
-                var configCount = usbDevice.ConfigurationCount;
-
-                msg += $"Manufacturer Name: {manufacturerName}\n";
-                msg += $"Product Name: {productName}\n";
-                msg += $"Product ID: {productId}\n";
-                msg += $"Vendor ID: {vendorId}\n";
-                msg += $"Device ID: {deviceId}\n";
-                msg += $"Version: {version}\n";
-                msg += $"Serial: {serialNum}\n";
-                msg += "----------------------\n";
-                msg += $"Device Protocol: {deviceProtocol}\n";
-                msg += $"Interface Count: {interfaceCount}\n";
-                msg += $"Config Count: {configCount}";
+                msg = $"Manufacturer Name: {usbDevice.ManufacturerName}\n" +
+                      $"Product Name: {usbDevice.ProductName}\n" +
+                      $"Product ID: {usbDevice.ProductId}\n" +
+                      $"Vendor ID: {usbDevice.VendorId}\n" +
+                      $"Device ID: {usbDevice.DeviceId}\n" +
+                      $"Version: {usbDevice.Version}\n" +
+                      $"Serial: {usbDevice.SerialNumber}\n" +
+                      "----------------------\n" +
+                      $"Device Protocol: {usbDevice.DeviceProtocol}\n" +
+                      $"Interface Count: {usbDevice.InterfaceCount}\n" +
+                      $"Config Count: {usbDevice.ConfigurationCount}";
             }
             else
             {
