@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/viewSwitch"
+    android:icon="@drawable/ic_iconmonstr_cpu_7"
+    android:title="Flasher / Tweaks" />
+
+</menu>

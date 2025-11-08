@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:gravity="bottom">
+
+
+  <GridLayout
+        android:id="@+id/FunctionStack"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:paddingTop="5px">
+
+
+
+        <Button
+            android:text="@string/ReadTune"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReadTune"
+            android:width="150dp" />
+        <Button
+            android:text="@string/FlashTune"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FlashTune"
+            android:width="150dp" />
+        <Button
+            android:text="@string/ReadFull"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReadFull"
+            android:width="150dp" />
+        <Button
+            android:text="@string/FlashFull"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FlashFull"
+            android:width="150dp" />
+        <Button
+            android:text="@string/LoadFile"
+            android:enabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoadFile"
+            android:width="150dp" />
+        <Button
+            android:text="@string/SaveFile"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SaveFile"
+            android:width="150dp" />
+
+        <TextView
+          android:text=""
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/programStatus_Box"
+          android:layout_gravity="center"
+          android:textStyle="bold"
+          android:layout_columnSpan="2"/>
+
+
+        <Button
+            android:text="@string/identifyDme"
+            android:enabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/IdentifyDME"
+            android:width="300dp"
+            android:layout_columnSpan="2"/>
+    </GridLayout>
+
+
+
+
+  <GridLayout
+        android:id="@+id/VehicleInfo"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:visibility="invisible">
+
+    <TextView
+            android:text="@string/Model"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Model" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Model_Box" />
+        <TextView
+            android:text="@string/Engine"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Engine" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Engine_Box" />
+        <TextView
+            android:text="@string/DmeType"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DMEType" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DMEType_Box" />
+        <TextView
+            android:text="@string/Vin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/VIN" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/VIN_Box" />
+        <TextView
+            android:text="@string/HwRef"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HWRef" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HWRef_Box" />
+        <TextView
+            android:text="@string/ProgVer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ZIF" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ZIF_Box" />
+        <TextView
+            android:text="@string/SwVer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SWRef" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SWRef_Box" />
+    </GridLayout>
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusTextBlock"
+        android:gravity="center_vertical"
+        android:textSize="45px"
+        android:height="63dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProgressDME"
+        android:progress="0"
+        android:scaleY="3"
+        android:max="4096"
+        android:indeterminate="false"/>
+</LinearLayout>

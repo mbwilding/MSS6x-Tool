@@ -1,0 +1,3 @@
+[submodule "ediabaslib"]
+	path = ediabaslib
+	url = https://github.com/uholeschak/ediabaslib

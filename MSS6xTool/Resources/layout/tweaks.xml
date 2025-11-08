@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/coldStartSwitch"
+            android:text="Cold Start Delete"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"/>
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/speedLimitSwitch"
+            android:text="Speed Limiter Delete"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"/>
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/primaryCatSwitch"
+            android:text="Primary Cat Delete"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"/>
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sapSwitch"
+            android:text="Secondary Air Pump Delete"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"/>
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/popsSwitch"
+            android:text="Exhaust Pops"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"
+            android:visibility="gone"/>
+
+    <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/o2Switch"
+            android:text="Post Cat O2 Sensor Delete"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:minHeight="@dimen/item_height"
+            android:visibility="gone"/>
+
+    <Switch
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/s85TuneSwitch"
+      android:text="Stage 1+"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:minHeight="@dimen/item_height"
+      android:visibility="gone"/>
+
+    // Idle
+
+    <TextView
+            android:text="Idle RPM: 0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idleRpmText"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idleRpmSeek"
+            android:min="750"
+            android:max="1300"
+            android:progress="0"
+            android:visibility="gone"/>
+
+    // Neutral RPM
+
+    <TextView
+            android:text="Neutral RPM Limit: 0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/neutralRpmText"
+            android:textStyle="bold"/>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/neutralRpmSeek"
+            android:min="1000"
+            android:max="9000"
+            android:progress="0"/>
+
+
+    // Drive RPM
+
+    <TextView
+            android:text="Drive RPM Limit: 0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/driveRpmText"
+            android:textStyle="bold"/>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/driveRpmSeek"
+            android:min="1000"
+            android:max="9000"
+            android:progress="0"/>
+
+    <TextView
+            android:text="Throttle Response: Sport"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trSportText"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trSportSpinner"
+            android:visibility="gone"/>
+
+    <TextView
+            android:text="Throttle Response: Normal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trNormalText"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trNormalSpinner"
+            android:visibility="gone"/>
+
+    <TextView
+            android:text="Throttle Response: Comfort"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trComfortText"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trComfortSpinner"
+            android:visibility="gone"/>
+
+
+
+</LinearLayout>

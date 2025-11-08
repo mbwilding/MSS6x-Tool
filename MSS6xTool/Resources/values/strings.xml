@@ -1,0 +1,31 @@
+<resources>
+  <string name="app_name">MSS6x Tool</string>
+  <string name="action_settings">Settings</string>
+  <string name="identifyDme">Identify DME</string>
+  <string name="ReadTune">Read Tune</string>
+  <string name="ReadFull">Read Full</string>
+  <string name="LoadFile">Load File</string>
+  <string name="SaveFile">Save File</string>
+  <string name="FlashTune">Flash Tune</string>
+  <string name="FlashFull">Flash Full</string>
+  <string name="Model">Model:</string>
+  <string name="Engine">Engine:</string>
+  <string name="DmeType">DME:</string>
+  <string name="Vin">Vin:</string>
+  <string name="HwRef">HW:</string>
+  <string name="ProgVer">Program:</string>
+  <string name="SwVer">Software:‏‏‎ ‎‏‏‎ ‎</string>
+  <string-array name="ThrottleResponseArray">
+    <item>Comfort</item>
+    <item>Normal</item>
+    <item>Sport</item>
+    <item>Super Sport</item>
+    <item>Linear</item>
+  </string-array>
+  <string-array name="S85TuneArray">
+    <item>Stock</item>
+    <item>Stage 1</item>
+    <item>Stage 1+</item>
+    <item>Stage 2 (Requires Catless Headers)</item>
+  </string-array>
+</resources>
