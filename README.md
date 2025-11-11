@@ -2,7 +2,7 @@
 
 ![Promo Image](https://github.com/mbwilding/MSS6x-Tool-Free/blob/main/promo.png?raw=true)
 
-Allows reading and flashing M3 E9x and M5/M6 E6x DMEs via Android.<br>
+Allows reading, tweaking and flashing M3 E9x and M5/M6 E6x DMEs via Android.<br>
 This is now the former PRO version.<br>
 
 Supported vehicles;<br>
