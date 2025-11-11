@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- ReSharper disable MarkupAttributeTypo -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.00" package="com.mattwilding.mss6xtool" android:installLocation="internalOnly">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="2.00" package="com.mattwilding.mss6xtool" android:installLocation="internalOnly">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
 	<uses-feature android:name="android.hardware.usb.host" />
 	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="MSS6x Tool" android:supportsRtl="true" android:theme="@style/AppTheme" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:launchMode="singleInstance">
